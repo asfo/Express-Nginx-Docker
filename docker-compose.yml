@@ -1,0 +1,10 @@
+api:
+  build: ./nginx
+  links:
+    - node:node
+  ports:
+    - "80:80"
+node:
+  build: ./node
+  ports:
+    - "3000"
