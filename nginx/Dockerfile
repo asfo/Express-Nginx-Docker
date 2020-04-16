@@ -1,6 +1,6 @@
 FROM ubuntu
 
-MAINTAINER Quiubas Team "cesar@quiubas.com"
+MAINTAINER Asfo Development "hola@asfo.dev"
 
 ENV NGINX_VERSION 1.13.4
 
